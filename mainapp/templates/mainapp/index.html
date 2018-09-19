@@ -1,0 +1,47 @@
+﻿{% load staticfiles %}
+{% load utils %}
+
+<!DOCTYPE html>
+<html lang="en">
+    {% include "mainapp/includes/inc__head.html" %}
+
+<body>
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-group">
+            <a href="/load_data/" class="btn btn-primary">Load data</a>
+            <a href="/clear_data/" class="btn btn-primary">Clear data</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a class="btn btn-primary" href="/units/">Units</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-1" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a class="btn btn-primary" href="/companys/">Companys</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
